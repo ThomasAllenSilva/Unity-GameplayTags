@@ -3,8 +3,6 @@
 My attempt to replicate Unreal's Gameplay Tags system: https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-tags?application_version=4.27
 
 
-# Usage
-
 # Build
 Before building your project make sure that you added your tags container as a preloaded asset, otherwise it will get stripped because there's nothing directly referencing it
 

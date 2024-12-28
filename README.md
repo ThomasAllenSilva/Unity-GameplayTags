@@ -5,6 +5,14 @@ My attempt to replicate Unreal's Gameplay Tags system: https://dev.epicgames.com
 
 # Usage
 
+# Build
+Before building your project make sure that you added your tags container as a preloaded asset, otherwise it will get stripped because there's nothing directly referencing it
+
+
+<img width="738" alt="11" src="https://github.com/user-attachments/assets/2c02b2b8-d8cd-4a6d-a48e-3a8f6a3aa260" />
+
+
+# Registering tags
 You can register tags in two ways: Adding native tag / Manually adding a new tag
 
 # Manually adding a new tag

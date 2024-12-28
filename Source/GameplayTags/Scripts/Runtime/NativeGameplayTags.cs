@@ -14,15 +14,13 @@ namespace GameplayTags
         //public const string TEST_GAMEPLAY_TAG = "Test.NewTag";
 
 #if UNITY_EDITOR
-        private const string CONTAINER_PATH = "Assets/Plugins/Thomas/GameplayTags/Data/GameplayTagsContainer.asset";
-
         private static GameplayTagsContainer _gameplayTags;
 
         private static void EnsureGameplayTags()
         {
             if (_gameplayTags == null)
             {
-                _gameplayTags = AssetDatabase.LoadAssetAtPath<GameplayTagsContainer>(CONTAINER_PATH);
+                _gameplayTags = AssetDatabase.LoadAssetAtPath<GameplayTagsContainer>(GameplayTagsContainer.CONTAINER_PATH);
             }
         }
 

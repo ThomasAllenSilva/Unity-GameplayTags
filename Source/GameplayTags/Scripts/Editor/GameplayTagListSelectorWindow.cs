@@ -44,11 +44,12 @@ namespace GameplayTags.Editor
 
         private void OnEnable()
         {
-            _gameplayTags = AssetDatabase.LoadAssetAtPath<GameplayTagsContainer>("Assets/Plugins/Thomas/GameplayTags/Data/GameplayTags.asset");
+            _gameplayTags = AssetDatabase.LoadAssetAtPath<GameplayTagsContainer>(GameplayTagsContainer.CONTAINER_PATH);
 
             if (_gameplayTags == null)
             {
-                Debug.LogError("GameplayTags asset not found at path: Assets/Plugins/GameplayTags/Data/GameplayTags.asset");
+                DebugHelper.LogError($"GameplayTags asset not found at path: {GameplayTagsContainer.CONTAINER_PATH}");
+
                 return;
             }
 

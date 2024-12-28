@@ -21,7 +21,6 @@ namespace GameplayTags.Editor
 
         private bool _showErrorLogs = false;
 
-        private const string CONTAINER_PATH = "Assets/Plugins/Thomas/GameplayTags/Data/GameplayTagsContainer.asset";
         private sealed class TagNode
         {
             public string FullPath { get; }
@@ -52,11 +51,11 @@ namespace GameplayTags.Editor
 
         private void OnEnable()
         {
-            _gameplayTags = AssetDatabase.LoadAssetAtPath<GameplayTagsContainer>(CONTAINER_PATH);
+            _gameplayTags = AssetDatabase.LoadAssetAtPath<GameplayTagsContainer>(GameplayTagsContainer.CONTAINER_PATH);
 
             if (_gameplayTags == null)
             {
-                Debug.LogError($"GameplayTags asset not found at path: {CONTAINER_PATH}");
+                Debug.LogError($"GameplayTags asset not found at path: {GameplayTagsContainer.CONTAINER_PATH}");
                 return;
             }
 

@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8af4785be183ac4a9bbdd24eeb6dd7b, type: 3}
   m_Name: GameplayTagsContainer
   m_EditorClassIdentifier: 
-  _gameplayTagsList: []
+  _gameplayTagsList:
+  - <IsNativeTag>k__BackingField: 0
+    <Tag>k__BackingField: NewTag
+  - <IsNativeTag>k__BackingField: 0
+    <Tag>k__BackingField: NewTag.NewTag

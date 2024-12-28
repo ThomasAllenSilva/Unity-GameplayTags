@@ -43,7 +43,8 @@ namespace GameplayTags
         }
 
 #if UNITY_EDITOR
-      
+        public const string CONTAINER_PATH = "Assets/Plugins/Thomas/GameplayTags/Data/GameplayTagsContainer.asset";
+
         public void ResetNativeTags()
         {
             foreach (GameplayTag gameplayTag in _gameplayTagsList.ToArray())

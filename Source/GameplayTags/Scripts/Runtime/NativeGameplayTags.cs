@@ -38,6 +38,8 @@ namespace GameplayTags
             if(_gameplayTags == null)
             {
                 UnityEngine.Debug.LogWarning("Could Not Initialize Native Tags. Make sure the path and name is correct");
+
+                return;
             }
 
             _gameplayTags.ResetNativeTags();

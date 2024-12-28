@@ -2,7 +2,7 @@
     "name": "GameplayTags",
     "rootNamespace": "GameplayTags",
     "references": [
-        "GUID:c44cf66986ad15042aa806d9a647c259"
+        "GUID:77e57f6426825aa4fb2f851bdc594f84"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

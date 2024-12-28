@@ -97,3 +97,5 @@ There's also an extension methods helper class which helps you retrieve/add/remo
 # Future features
 
 [ ] Replace strings by Guids to improve speed and memory usage - I'm still analysing how I'm going to implement this because there's also the possibility of using string interning, which may improve memory usage for the manually added tags inside the ScriptableObject
+
+[ ] Add more tags comparison fuctions inside Gameplay Tags Component

@@ -66,3 +66,21 @@ You can also add via code during runtime which will then trigger an event so tha
 
 <img width="508" alt="6" src="https://github.com/user-attachments/assets/d40cf1a5-c161-412a-a4d7-b918f87b03a7" />
 
+
+# GameplayTagSelector Attribute
+
+If you want to select a tag to your custom component you can use the GameplayTagSelector Attribute which allows you to choose a tag to your string field and avoid typos
+
+<img width="318" alt="7" src="https://github.com/user-attachments/assets/58427a37-db5d-4de9-8de5-76613d208569" />
+
+
+<img width="498" alt="8" src="https://github.com/user-attachments/assets/d9f4e445-83cd-4e16-9df9-d6acba2f537e" />
+
+
+
+# Extension Methods
+
+There's also an extension methods helper class which helps you retrieve/add/remove components from Objects
+
+<img width="491" alt="9" src="https://github.com/user-attachments/assets/97a5e42e-439f-40d2-a5f4-827a1d77fd02" />
+

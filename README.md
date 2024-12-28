@@ -75,7 +75,7 @@ You can also add via code during runtime which will then trigger an event so tha
 
 # GameplayTagSelector Attribute
 
-If you want to select a tag to your custom component you can use the GameplayTagSelector Attribute which allows you to choose a tag to your string field and avoid typos
+If you want to select a tag from your custom component you can use the GameplayTagSelector Attribute which allows you to choose a tag to your string field and avoid typos
 
 <img width="318" alt="7" src="https://github.com/user-attachments/assets/58427a37-db5d-4de9-8de5-76613d208569" />
 

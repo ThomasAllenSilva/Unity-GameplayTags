@@ -39,3 +39,12 @@ To add a native tag you must do that via code the following way:
 
 <img width="370" alt="5" src="https://github.com/user-attachments/assets/9af73122-8274-4014-b8d7-7a6e0e060107" />
 
+# Native tags notes
+
+1 - Native tags cannot be deleted on modified directly on the ScriptableObject, they're readonly
+
+2 - If you add a native tag that already exists inside the container, it will replace the tag by the native one
+
+3 - If you remove a native tag from code, it will not revert as a manually code, it will just be removed from the container
+
+4 - Native tags can also have child tags both added from the ScriptableObject and from code

@@ -45,6 +45,24 @@ To add a native tag you must do that via code the following way:
 
 2 - If you add a native tag that already exists inside the container, it will replace the tag by the native one
 
-3 - If you remove a native tag from code, it will not revert as a manually code, it will just be removed from the container
+3 - If you remove a native tag from code, it will not revert as a manual tag, it will just be removed from the container
 
 4 - Native tags can also have child tags both added from the ScriptableObject and from code
+
+# Gameplay Tags Component
+Use this component to hold tags related to your GameObjects
+
+<img width="494" alt="1" src="https://github.com/user-attachments/assets/263728c2-10f6-4651-9517-925a4f8a370b" />
+
+You can add Startup Tags and also Add/Remove tags during Runtime
+
+# Addings Tag To Gameplay Tags Component
+
+On the Startup Tags you can select any tag from the created ones inside the ScriptableObject (Including native tags) and add as many as you want
+
+<img width="186" alt="2" src="https://github.com/user-attachments/assets/63e3715c-f92d-4e83-81d1-9c9f85f29691" />
+
+You can also add via code during runtime which will then trigger an event so that you can perform actions whenever a tag is added/removed
+
+<img width="508" alt="6" src="https://github.com/user-attachments/assets/d40cf1a5-c161-412a-a4d7-b918f87b03a7" />
+

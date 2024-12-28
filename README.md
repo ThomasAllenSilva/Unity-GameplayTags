@@ -80,7 +80,7 @@ If you want to select a tag to your custom component you can use the GameplayTag
 
 # Extension Methods
 
-There's also an extension methods helper class which helps you retrieve/add/remove components from Objects
+There's also an extension methods helper class which helps you retrieve/add/remove tags from Objects
 
 <img width="491" alt="9" src="https://github.com/user-attachments/assets/97a5e42e-439f-40d2-a5f4-827a1d77fd02" />
 

@@ -3,11 +3,11 @@
 My attempt to replicate Unreal's Gameplay Tags system: https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-tags?application_version=4.27
 
 
-#Usage
+# Usage
 
 You can register tags in two ways: Adding native tag / Manually adding a new tag
 
-#Manually adding a new tag
+# Manually adding a new tag
 You can manipulate tags directly on the ScriptableObject the following way:
 
 1 - Click "Add Root Tag"

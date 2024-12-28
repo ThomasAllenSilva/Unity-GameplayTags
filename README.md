@@ -92,3 +92,8 @@ There's also an extension methods helper class which helps you retrieve/add/remo
 
 
 <img width="400" alt="10" src="https://github.com/user-attachments/assets/517ee205-a454-4843-ade3-5c6f495215db" />
+
+
+# Future features
+
+[] Replace strings by Guids to improve speed and memory usage - I'm still analysing how I'm going to implement this because there's also the possibility of use string interning which may improve memory usage for the manually added tags inside the ScriptableObject
